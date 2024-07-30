@@ -7,7 +7,8 @@ Install_pre(){
     # 필요한 패키지가 설치되어 있는지 확인하고, 없는 경우에만 설치
     echo "Checking and installing required packages if not already installed..."
 
-    packages=("cmake" "build-essential" "libxerces-c-dev" "libexpat1-dev")
+    packages=("cmake" "build-essential" "libxerces-c-dev" "libexpat1-dev" "libqt5opengl5-dev" "libmotif-dev")
+
     for pkg in "${packages[@]}"; do
         if ! dpkg -s $pkg >/dev/null 2>&1; then
             echo "$pkg is not installed. Installing..."
