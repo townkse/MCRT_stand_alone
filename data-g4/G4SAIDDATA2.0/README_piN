@@ -1,0 +1,19 @@
+Evaluated Pion-Nucleon Cross Section Data Directory
+
+Alekseev ea PhysRevC91:025205,2015
+==============================================
+Authors: A.Afanasev, W.Briscoe, and I.Strakovsky
+        (revison 4 February 2018)
+
+Evaluated cross section data for pion-proton
+
+-- pip_el.dat - pi+p elastic 
+-- pip_in.dat - pi+p inelastic
+-- pim_el.dat - pi-p elastic
+-- pim_in.dat - pi-p inelastic
+-- pin.dat    - pi-p-->pi0n CXS
+-- pie.dat    - pi-p-->etan
+
+Add data format is G4VPhysicsVector compatible
+
+Kinetic energy in MeV and cross section in millibarns 

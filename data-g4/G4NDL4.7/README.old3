@@ -1,0 +1,47 @@
+
+
+
+================================================================================
+                                     G4NDL4.6
+================================================================================
+E. Mendoza, D. Cano-Ott - Oct. 2019
+
+G4NDL4.6 neutron cross sections and final states have been obtained from 
+JEFF-3.3 [1]. The previous release, G4NDL4.5, was based mainly on 
+ENDF/B-VII.1 [2]. Details concerning older G4NDL versions can be found in 
+README.old2 (which is the old README file).
+
+
+There are some files not coming from JEFF-3.3, which have been copied from 
+G4NDL4.5. They are:
+ - IsotopeProduction
+ - JENDL_HE 
+ - ThermalScattering
+ - Inelastic/Gammas
+ - Fission/FF
+
+
+Information concerning the conversion process of JEFF-3.3 to the G4NDL format
+can be found in:
+E. Mendoza and D. Cano-Ott, Update of the Evaluated Neutron Cross Section 
+Libraries for the Geant4 Code, IAEA technical report INDC(NDS)-0758, 
+Vienna, 2018 --> https://www-nds.iaea.org/publications/indc/indc-nds-0758/
+
+Other evaluated neutron cross section libraries in G4NDL format can be 
+downloaded from:
+     https://www-nds.iaea.org/geant4/
+
+More information concerning the conversion process can be found in [3].
+================================================================================
+
+
+[1] http://www.oecd-nea.org/dbdata/jeff/jeff33/
+[2] M. Chadwick et al., Nucl. Data Sheets 112, 2887 (2011), special issue on 
+ENDF/B-VII.1 Library.
+[3] E. Mendoza, D. Cano-Ott, T. Koi and C. Guerrero, IEEE Trans. Nucl. 
+Science 61 (2014) 2357.
+
+
+
+
+

@@ -1,0 +1,36 @@
+Geant4 G4PARTICLEXSDATA - neutron, gamma and light ion cross sections 
+---------------------------------------------------------------------
+
+16 August 2021  V.Ivanchenko G4PARTICLEXS4.0
+- Extended data for all isotopes for neutron, protons,  and
+  light ion x-sections. New dataset for gamma incident based on
+  IAEA/PD-2019 both for elements and isotopes.
+
+28 January 2021  V.Ivanchenko G4PARTICLEXS3.1.1
+- fixed data for He3 and He4 for few light targets
+
+21 October 2020  V.Ivanchenko G4PARTICLEXS3.1
+- fixed fussion data 
+
+11 October 2020  V.Ivanchenko G4PARTICLEXS3.0
+- regenerated n, p, d, t, He3, He4, gamma data based on G4NDL4.6 
+  and LEND; provided smooth cross section shape and fussion
+  cross sections
+
+19 August 2019  V.Ivanchenko G4PARTICLEXS2.1
+- regenerated n, p, d, t, He3, He4, gamma data, providing smooth 
+  cross section shape 
+
+21 May 2019  V.Ivanchenko G4PARTICLEXS2.0
+- V.Grichine added data for neutrino
+- Updated x-sections for low Z targets at low energy
+
+19 November 2018  V.Ivanchenko G4PARTICLEXS1.1
+- fixed proton and alpha data
+
+02 November 2018  V.Ivanchenko G4PARTICLEXS1.0
+- version produced from G4NDL4.5 for neutrons
+  G4TENDL1.3.2 for p, d, t, He3, He4
+  LEND1.3 for gamma
+
+

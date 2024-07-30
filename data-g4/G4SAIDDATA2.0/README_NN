@@ -1,0 +1,20 @@
+Evaluated Nucleon Cross Section Data Directory
+
+Workman ea PhysRevC94:065203,2016
+==============================================
+Authors: A.Afanasev, W.Briscoe, and I.Strakovsky
+        (revison 4 February 2018)
+
+Evaluated cross section data for proton-proton
+
+-- pp_el.dat - elastic 
+-- pp_in.dat - inelastic
+
+Evaluated cross section data for neutron-proton
+
+-- np_el.dat - elastic
+-- np_in.dat - inelastic
+
+Add data format is G4VPhysicsVector compatible:
+
+Kinetic energy in MeV and cross section in millibarns 

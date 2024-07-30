@@ -1,0 +1,51 @@
+================================================================================
+                                     G4NDL4.7
+================================================================================
+D. Cano-Ott, E. Dumonteil, E. Mendoza, L. Thulliez - April 2022
+
+G4NDL4.7 neutron cross sections and final states have been obtained from the
+previous version, G4NDL4.6, except for the ThermalScattering part.
+Details concerning G4NDL4.6 can be found in README.old3 (which is the README
+file of that version).
+
+The new, ThermalScattering part has been obtained from thermal scattering
+data from JEFF-3.3, and adding the ENDF/BVIII-0 materials not in JEFF-3.3,
+coupled to JEFF-3.3 nuclear cross sections.
+(NJOY with "low-precision (tol=0.02, N_mu=8)" setting has been used to
+ ensure the continuity between nuclear cross sections above 4 eV and
+ thermal scattering cross sections below 4 eV - see [1] for more information).
+
+Alternative thermal scattering data obtained from thermal scattering from 
+-  JEFF-3.3 and ENDF/BVIII-0 processed with "high-precision (tol=0.001, N_mu=32)",
+    named ThermalScattering_XS_JEFF33_TSL_mix_JEFF33_ENDFB80
+-  JEFF-3.3
+    named ThermalScattering_XS_JEFF33_TSL_JEFF33
+-  ENDF/BVIII-0
+    named ThermalScattering_XS_JEFF33_TSL_ENDFB80
+-  ENDF/BVII-1
+    named ThermalScattering_XS_JEFF33_TSL_ENDFB71
+coupled to JEFF-3.3 nuclear cross sections are available.
+
+Each of these are provided in a choice of two precisions of NJOY processing, 
+-  high precision, (tol=0.001, N_mu=32), marked by HighPrecision
+-  low precision , (tot=0.02, N_mu=8), marked by LowPrecision
+
+These data-sets are available for download as compressed tar files from 
+https://geant4-data.web.cern.ch/datasets/Thermal/<name>_(LowPrecision|HighPrecision).1.0.tar.gz
+for example:
+https://geant4-data.web.cern.ch/datasets/Thermal/ThermalScattering_XS_JEFF33_TSL_mix_JEFF33_ENDFB80_LowPrecision.1.0.tar.gz
+
+In order to use any of these, download the file, unpack its content, and replace
+the existing ThermalScattering directory in G4NDL4.7 by a link to the alternative dataset.
+For example, if you unpack the data in teh G4NDL4.7 directory, it is enough to rename
+the ThermalScattering/ subdirectory and then create a symbolic link to the desired alternative
+thermal scattering data, for instance:
+
+mv ThermalScattering save.ThermalScattering
+ln -s ThermalScattering_XS_JEFF33_TSL_mix_JEFF33_ENDFB80_HighPrecision ThermalScattering
+
+================================================================================
+
+[1] L. Thulliez, C. Jouanne, E. Dumonteil "Improvement of Geant4 Neutron-HP
+    package: From methodology to evaluated nuclear data library",
+    Nuclear Inst. and Methods in Physics Research, A 1027 (2022) 166187

@@ -1,0 +1,27 @@
+Evaluated neutron/gamma/lightion cross section data directory
+=============================================================
+   authors A.Ivanchenko & V.Ivanchenko
+        (revison 2 November 2018)
+
+1. Evaluated cross section data for natural composition of elements 
+for neutrons, protons, deuterons, tritons, He3, alpha, gamma
+
+-- elZ   - elastic 
+-- inelZ - inelastic
+-- capZ  - capture
+
+Data for selected isotopes below 20 MeV
+
+-- inelZ_A - inelastic
+-- capZ_A  - capture
+
+Data format is G4VPhysicsVector compatible
+
+These data are used by neutron cross section classes G4NeutronCaptureXS,
+G4NeutronElasticXS, G4NeutronInelasticXS, and G4ParticleIvelasticXS.
+
+2. Extra directory "neutrino" consists of files for x- and Q2- sampling 
+of neutrino interactions with nucleon (nucleus). The sampling depends on 
+the neutrino flavour, so a tree of directories will be implemented. 
+The values of x and Q2 are used for the creation of the neutrino-nucleus 
+interaction final state.

@@ -1,0 +1,11 @@
+prefix=/home/g4test/Geant4.11.1.p01/install-g4
+includedir=${prefix}/include/Geant4
+libdir=${prefix}/lib
+
+Name: G4PTL
+Description: Parallel Tasking Library for C++ (Geant4 Builtin)
+Version: 2.3.3
+Requires: 
+Libs: -L${libdir} -lG4ptl
+Libs.private: -pthread
+CFlags: -std=c++17 -pthread -I${includedir}

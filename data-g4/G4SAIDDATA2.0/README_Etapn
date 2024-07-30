@@ -1,0 +1,15 @@
+Evaluated Eta' Photoproduction Cross Section on the Neutron Data Directory
+
+Kashevarov ea Bled Workshops Phys. 18 (2017) No. 1, 1-5
+                arXiv:1801.02196 [hep-ph]
+==============================================
+Authors: A.Afanasev, W.Briscoe, and I.Strakovsky
+        (revison 11 February 2018)
+
+Evaluated cross section data for pion photoproduction
+
+-- gp_etapp.dat - gn-->eta'n
+
+Add data format is G4VPhysicsVector compatible
+
+Kinetic energy in MeV and cross section in microbarns

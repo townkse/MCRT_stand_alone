@@ -1,0 +1,124 @@
+$IAEA_INDEX:
+500   // IAEA website: www-nds.iaea.org/phsp/photon/
+
+$TITLE:
+PHASESPACE in IAEA format for Varian Clinac iX at 6 MV 
+
+$FILE_TYPE:
+0
+
+$CHECKSUM:
+15999170 
+
+$RECORD_CONTENTS:
+    1     // X is stored ?
+    1     // Y is stored ?
+    0     // Z is stored ?
+    1     // U is stored ?
+    1     // V is stored ?
+    1     // W is stored ?
+    1     // Weight is stored ?
+    1     // Extra floats stored ?
+    2     // Extra longs stored ?
+    3     // ZLAST variable stored in the extrafloat array [ 0] 
+    1     // Incremental history number stored in the extralong array [ 0] 
+    2     // LATCH EGS variable stored in the extralong array [ 1] 
+
+$RECORD_CONSTANT:
+     0.0000     // Constant Z
+
+$RECORD_LENGTH:
+37
+
+$BYTE_ORDER:
+1234
+
+$ORIG_HISTORIES:
+100000000
+
+$PARTICLES:
+432410
+
+$PHOTONS:
+430287
+
+$ELECTRONS:
+2032
+
+$POSITRONS:
+91
+
+$TRANSPORT_PARAMETERS:
+ Global ECUT= 0.7
+ Global PCUT= 0.01
+ Global SMAX= 1e10
+ ESTEPE= 0.25
+ XIMAX= 0.5
+ Boundary crossing algorithm= EXACT
+ Skin depth for BCA= 0
+ Electron-step algorithm= PRESTA-II
+ Spin effects= On
+ Brems angular sampling= KM
+ Brems cross sections= NIST
+ Bound Compton scattering= On
+ Pair angular sampling= KM
+ Photoelectron angular sampling= On
+ Rayleigh scattering= Off
+ Atomic relaxations= Off
+ Electron impact ionization= Off
+
+$MACHINE_TYPE:
+Varian Clinac iX
+
+$MONTE_CARLO_CODE_VERSION:
+BEAMnrc 2009
+
+$GLOBAL_PHOTON_ENERGY_CUTOFF:
+  0.01000
+$GLOBAL_PARTICLE_ENERGY_CUTOFF:
+  0.70000
+$COORDINATE_SYSTEM_DESCRIPTION:
+Beam axis along the Z axis, top of bremsstrahlung target at Z=0
+
+//  OPTIONAL INFORMATION
+
+$BEAM_NAME:
+Phase space collected at SSD 90cm
+
+$FIELD_SIZE:
+0.5x0.5 cm2 at SSD 100cm
+
+$NOMINAL_SSD:
+
+$MC_INPUT_FILENAME:
+
+$VARIANCE_REDUCTION_TECHNIQUES:
+DBS-radius 15 cm at SSD 100cm, NBRSPL=1000, ESAVE=2 MeV everywhere except in target where it was 1 MeV.
+
+$INITIAL_SOURCE_DESCRIPTION:
+BEAMnrc Source 19 with monoenergetic 5.7 electrons and a spot size of FWHM=0.1 cm
+
+$PUBLISHED_REFERENCE:
+Report MFT-Radfys 2010:01
+
+$AUTHORS:
+E. Hedin, A. Back, R. Chakarova
+
+$INSTITUTION:
+Sahlgrenska University Hospital, Gothenburg, Sweden
+
+$LINK_VALIDATION:
+
+$ADDITIONAL_NOTES:
+This is IAEA header as defined in the technical 
+report IAEA(NDS)-0484, Vienna, 2006
+
+$STATISTICAL_INFORMATION_PARTICLES:
+//        Weight        Wmin       Wmax       <E>         Emin         Emax    Particle
+           527.19      0.001          1      1.865       0.02797       5.697   PHOTONS
+            2.032      0.001      0.001      1.808         0.701       5.623   ELECTRONS
+            0.091      0.001      0.001      1.799        0.7965       4.368   POSITRONS
+
+$STATISTICAL_INFORMATION_GEOMETRY:
+ -29.7444  29.5382
+ -29.9531  29.6222

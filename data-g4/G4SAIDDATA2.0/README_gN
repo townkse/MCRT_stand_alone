@@ -1,0 +1,17 @@
+Evaluated Pion Photoproduction Cross Section Data Directory
+
+Mattione ea PhysRevC96:035204,2017
+==============================================
+Authors: A.Afanasev, W.Briscoe, and I.Strakovsky
+        (revison 15 February 2018)
+
+Evaluated cross section data for pion photoproduction
+
+-- gp_pi0p.dat - gp-->pi0p
+-- gp_pi+n.dat - gp-->pi+n
+-- gn_pi-p.dat - gn-->pi-p
+-- gn_pi0n.dat - gn-->pi0n
+
+Add data format is G4VPhysicsVector compatible
+
+Kinetic energy in MeV and cross section in microbarns

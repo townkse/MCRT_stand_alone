@@ -1,0 +1,20 @@
+Evaluated Kaon-Nucleon Cross Section Data Directory
+
+Hyslop ea PhysRevD46:961,1992
+==============================================
+Authors: A.Afanasev, W.Briscoe, and I.Strakovsky
+        (revison 4 February 2018)
+
+Evaluated cross section data for kaon-proton
+
+-- kpp_el.dat - K+p elastic 
+-- kpp_in.dat - K+p inelastic
+
+Evaluated cross section data for kaon-neutron
+
+-- kpn_el.dat - K+n elastic
+-- kpn_in.dat - K+n inelastic
+
+Add data format is G4VPhysicsVector compatible
+
+Kinetic energy in MeV and cross section in millibarns 

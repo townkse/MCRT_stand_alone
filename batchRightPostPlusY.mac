@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+/control/verbose 0
+/tracking/verbose 0
+/run/verbose 0
+/event/verbose 0 
+
+/physics/addPhysics standard_opt4
+
+/thk/magScaleFactor 1
+/run/initialize
+/thk/beamletGroup rtPost
+
+/run/printProgress 1000000
+/thk/beamOn 100000000 

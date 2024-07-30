@@ -1,0 +1,12 @@
+export LD_LIBRARY_PATH=/home/thk/Radexel-G4StandAlone/lib_clhep:/home/thk/Radexel-G4StandAlone/lib_G4:/home/thk/Radexel-G4StandAlone/lib_coin3D:${LD_LIBRARY_PATH}
+export G4LEVELGAMMADATA=/home/thk/Radexel-G4StandAlone/data-g4/PhotonEvaporation5.7
+export G4LEDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4EMLOW8.2
+export G4NEUTRONHPDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4NDL4.7
+export G4ENSDFSTATEDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4ENSDFSTATE2.3
+export G4RADIOACTIVEDATA=/home/thk/Radexel-G4StandAlone/data-g4/RadioactiveDecay5.6
+export G4ABLADATA=/home/thk/Radexel-G4StandAlone/data-g4/G4ABLA3.1
+export G4PIIDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4PII1.3
+export G4PARTICLEXSDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4PARTICLEXS4.0
+export G4SAIDXSDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4SAIDDATA2.0
+export G4REALSURFACEDATA=/home/thk/Radexel-G4StandAlone/data-g4/RealSurface2.2
+export G4INCLDATA=/home/thk/Radexel-G4StandAlone/data-g4/G4INCL1.0

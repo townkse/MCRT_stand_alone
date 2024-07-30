@@ -1,0 +1,9 @@
+History for RealSurfaceData files:
+----------------------------------
+
+2020-10-08. RealSurfaceData2.2
+  D. Sawkey. Compress data with zlib.
+
+2018-05-21. RealSurfaceData2.1.1  
+  D. Sawkey. Create RealSurfaceData2.1.1 by merging the LBNL LUTs
+  from RealSurfaceData2.0 with the Davis LUTs from RealSurfaceData2.1.
