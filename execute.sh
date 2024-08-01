@@ -4,6 +4,7 @@ set -e
 G4_PATH_TOP=${PWD}
 
 Install_pre(){
+    sudo apt-get update
     # 필요한 패키지가 설치되어 있는지 확인하고, 없는 경우에만 설치
     echo "Checking and installing required packages if not already installed..."
 
